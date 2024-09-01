@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+.navbar{
+    width: Fixed (1,440px)px;
+height: Hug (68px)px;
+
+
+}
+.label{
+    padding-left:90px ;
+
+}
+.options{
+    padding-right: 50px;
+    
+}
+.landing-page{
+width: Fixed (1,440px)px;
+height: 30px;
+top: 60px;
+gap: 70px;
+opacity: 0px;
+
+}
+.mid-container {
+    padding-right: 500px;
+    width: Fixed (1, 440px)px;
+    height: Hug (515px)px;
+    padding: 0px 170px 0px 100px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mid-container .left-container .mid-heading {
+    font-family: Space Grotesk;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+}
+
+.mid-container p {
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.mid-container .consultation-btn {
+    width: Hug (264px)px;
+    height: Hug (68px)px;
+    padding: 20px 35px 20px 35px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+
+}
+
+.mid-image {
+    width: Fixed (1, 440px)px;
+    height: Hug (515px)px;
+    padding: 0px 100px 0px 100px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+.footerbar .footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.footerbar .footer-nav .nav-item {
+    list-style: none;
+}
+
+.footerbar .footer-nav a {
+    padding: 5px 0px;
+    width: Fixed (1, 440px)px;
+    height: Hug (771px)px;
+    top: 60px;
+    gap: 70px;
+    opacity: 0px;
+    padding-top: 80px;;
+}
+.subheading{
+    width: Fixed (1,440px)px;
+height: Hug (51px)px;
+top: 971px;
+padding: 0px 100px 0px 100px;
+gap: 40px;
+opacity: 0px;
+
+}
+.container3{
+    width: Hug (1,440px)px;
+height: Hug (310px)px;
+top: 1102px;
+gap: 40px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+}
+.container3 {
+    display: flex; /* Apply flexbox layout */
+    gap: 1rem; /* Optional: Add space between the cards */
+    overflow-x: auto; /* Optional: Allow horizontal scrolling if needed */
+    padding: 1rem; /* Optional: Add some padding around the container */
+  }
+  
+  .card {
+    flex: 0 0 auto; /* Prevent cards from shrinking or growing */
+  }
